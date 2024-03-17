@@ -336,19 +336,6 @@ total_ssh=$(grep -c -E "^### " "/etc/xray/ssh")
 jumlah_noobz=$(grep -c -E "^### " "/etc/xray/noob")
 # TOTAL CREATE ACC TROJAN-GO
 jumlah_trgo=$(grep -c -E "^### " "/etc/trojan-go/trgo")
-function m-ip2(){
-clear
-cd
-if [[ -e /etc/github/api ]]; then
-m-ip
-else
-mkdir /etc/github
-echo "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" > /etc/github/api
-echo "angga.alfa.id@gmail.com" > /etc/github/email
-echo "MY-AnggA" > /etc/github/username
-m-ip
-fi
-}
 uphours=`uptime -p | awk '{print $2,$3}' | cut -d , -f1`
 upminutes=`uptime -p | awk '{print $4,$5}' | cut -d , -f1`
 uptimecek=`uptime -p | awk '{print $6,$7}' | cut -d , -f1`
