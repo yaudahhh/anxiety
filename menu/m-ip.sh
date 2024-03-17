@@ -27,7 +27,7 @@ checking_sc() {
 }
 checking_sc
 clear
-Repo1="https://raw.githubusercontent.com/MY-AnggA/izin/main/ip"
+Repo1="https://raw.githubusercontent.com/MY-AnggA/izin/main/"
 export MYIP=$( curl -s https://ipinfo.io/ip/ )
 SELLER=$(curl -sS ${Repo1}ip | grep $MYIP | awk '{print $2}')
 Exp100=$(curl -sS ${Repo1}ip | grep $MYIP | awk '{print $3}')
