@@ -710,7 +710,7 @@ clear
 }
 
 res12() {
-wget https://raw.githubusercontent.com/yaudahhh/anxiety/main/install/ins-trgo.sh && chmod +x ins-trgo.sh && bash  /ins-trgo.sh
+wget https://raw.githubusercontent.com/yaudahhh/anxiety/main/install/ins-trgo.sh && chmod +x ins-trgo.sh && bash ./ins-trgo.sh
 clear
 }
 
