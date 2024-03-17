@@ -1,4 +1,4 @@
-#!/bin/bash
+rww#!/bin/bash
 biji=`date +"%Y-%m-%d" -d "$dateFromServer"`
 MYIP=$(wget -qO- ifconfig.me)
 colornow=$(cat /etc/rmbl/theme/color.conf)
@@ -449,7 +449,7 @@ echo -e " $COLOR1╰════════════════════
 if [ "$Isadmin" = "ON" ]; then
 echo -e "$COLOR1╭════════════════════ • ${WH}PANEL ADMIN VIP${NC}${COLOR1} • ════════════════╮${NC}"
 echo -e "$COLOR1│  ${WH}[${COLOR1}13${WH}]${NC} ${COLOR1}• ${WH}RESELLER IP ${WH}[${COLOR1}MENU${WH}] $COLOR1 $NC"
-m-ip2
+"m-ip2"
 bottt="m-bot"
 echo -e "$COLOR1╰═════════════════════════════════════════════════════════╯${NC}"
 else
