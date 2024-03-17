@@ -449,7 +449,7 @@ echo -e " $COLOR1╰════════════════════
 if [ "$Isadmin" = "ON" ]; then
 echo -e "$COLOR1╭════════════════════ • ${WH}PANEL ADMIN VIP${NC}${COLOR1} • ════════════════╮${NC}"
 echo -e "$COLOR1│  ${WH}[${COLOR1}13${WH}]${NC} ${COLOR1}• ${WH}RESELLER IP ${WH}[${COLOR1}MENU${WH}] $COLOR1 $NC"
-"m-ip2"
+ressee="m-ip2"
 bottt="m-bot"
 echo -e "$COLOR1╰═════════════════════════════════════════════════════════╯${NC}"
 else
@@ -582,7 +582,7 @@ case $opt in
 10 | 10) clear ; m-system ;;
 11 | 11) clear ; m-backup;;
 12 | 12) clear ; reboot ;;
-13 | 13) clear ; m-ip2 ;;
+13 | 13) clear ; $ressee ;;
 14 | 14) clear ; key ;;
 22 | 22) clear ; running;;
 23 | 23) clear ; restartservice ;;
