@@ -27,10 +27,10 @@ checking_sc() {
 }
 checking_sc
 clear
-Repo1="https://raw.githubusercontent.com/MY-AnggA/izin/main/"
+Repo1="https://raw.githubusercontent.com/yaudahhh/izin/main/"
 export MYIP=$( curl -s https://ipinfo.io/ip/ )
-SELLER=$(curl -sS ${Repo1}ip | grep $MYIP | awk '{print $2}')
-Exp100=$(curl -sS ${Repo1}ip | grep $MYIP | awk '{print $3}')
+SELLER=$(curl -sS ${Repo1}ipmini | grep $MYIP | awk '{print $2}')
+Exp100=$(curl -sS ${Repo1}ipmini | grep $MYIP | awk '{print $3}')
 data_ip="https://raw.githubusercontent.com/yaudahhh/anxiety/main/ip"
 d2=$(date -d "$date_list" +"+%s")
 d1=$(date -d "$Exp" +"+%s")
@@ -50,10 +50,10 @@ YELL='\033[1;33m'
 BGX="\033[42m"
 END='\e[0m'
 AKTIF="VERIFIED"
-TOKEN="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"
-REPO="https://github.com/MY-AnggA/izin.git"
-EMAIL="angga.alfa.id@gmail.com"
-USER="MY-AnggA"
+TOKEN="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"
+REPO="https://github.com/yaudahhh/izin.git"
+EMAIL="leonardahaakim@gmail.com"
+USER="yaudahhh"
 
 
 add-ip() {
