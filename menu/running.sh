@@ -222,7 +222,7 @@ fi
 if [[ $stunnel_service == "running" ]]; then
    status_stunnel=" ${GREEN}Online ${NC}"
 else
-   status_stunnel="${GREEN} Online ${NC}"
+   status_stunnel="${RED} Offline ${NC}"
 fi
 # STATUS SERVICE WEBSOCKET TLS
 if [[ $wstls == "running" ]]; then
